@@ -1,0 +1,30 @@
+{
+  "name": "kolirt/checkbox.in.ua-sdk",
+  "description": "This package was created for UkrPoshta API.",
+  "keywords": [
+    "laravel",
+    "checkbox.in.ua"
+  ],
+  "license": "MIT",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Asan Abdurakhmanov",
+      "email": "asan11@outlook.com"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ],
+    "psr-4": {
+      "Kolirt\\Checkbox\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {}
+  }
+}
