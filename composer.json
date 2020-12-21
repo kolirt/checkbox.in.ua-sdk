@@ -6,7 +6,7 @@
     "checkbox.in.ua"
   ],
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "authors": [
     {
       "name": "Asan Abdurakhmanov",
@@ -14,7 +14,7 @@
     }
   ],
   "require": {
-    "guzzlehttp/guzzle": "^7.0.1"
+    "guzzlehttp/guzzle": "> 6.0.0"
   },
   "autoload": {
     "files": [
