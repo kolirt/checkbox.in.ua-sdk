@@ -1,6 +1,6 @@
 {
   "name": "kolirt/checkbox.in.ua-sdk",
-  "description": "This package was created for UkrPoshta API.",
+  "description": "sdk for checkbox.in.ua",
   "keywords": [
     "laravel",
     "checkbox.in.ua"

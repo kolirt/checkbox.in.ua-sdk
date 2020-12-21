@@ -50,7 +50,7 @@ class ReceiptGood
         return $this;
     }
 
-    public function setPrice(int $price)
+    public function setPrice(float $price)
     {
         $this->good['price'] = $price;
         return $this;
@@ -74,9 +74,9 @@ class ReceiptGood
         return $this;
     }
 
-    public function setQuantity(int $quantity)
+    public function setQuantity(float $quantity)
     {
-        $this->quantity = $quantity;
+        $this->quantity = $quantity ;
         return $this;
     }
 

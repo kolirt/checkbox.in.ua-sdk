@@ -62,6 +62,36 @@ class Receipt
         return $this;
     }
 
+    public function setRounding(bool $rounding)
+    {
+        $this->rounding = $rounding;
+        return $this;
+    }
+
+    public function setHeader(string $header)
+    {
+        $this->header = $header;
+        return $this;
+    }
+
+    public function setFooter(string $footer)
+    {
+        $this->footer = $footer;
+        return $this;
+    }
+
+    public function setBarcode(string $barcode)
+    {
+        $this->barcode = $barcode;
+        return $this;
+    }
+
+    public function setOrderId(string $order_id)
+    {
+        $this->order_id = $order_id;
+        return $this;
+    }
+
     public function render()
     {
         return [

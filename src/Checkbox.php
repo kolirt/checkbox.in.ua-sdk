@@ -411,6 +411,19 @@ class Checkbox
         });
     }
 
+    public function getGoods()
+    {
+        return $this->call(function () {
+            $request = $this->client->get('/api/v1/goods', [
+                'headers' => [
+                    'Authorization' => 'Bearer ' . $this->access_token,
+                ],
+            ]);
+
+            return $this->prepareResponse($request);
+        });
+    }
+
     private function prepareResponse(Response $response)
     {
         $data = $response->getBody()->getContents();

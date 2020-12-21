@@ -32,9 +32,9 @@ class ReceiptPayment
         return $this;
     }
 
-    public function setValue(int $value)
+    public function setValue(float $value)
     {
-        $this->value = $value;
+        $this->value = $value ;
         return $this;
     }
 
