@@ -1,0 +1,29 @@
+{
+  "name": "kolirt/checkbox.in.ua-sdk",
+  "description": "sdk for checkbox.in.ua",
+  "keywords": [
+    "sdk",
+    "checkbox.in.ua"
+  ],
+  "license": "MIT",
+  "version": "0.0.6",
+  "authors": [
+    {
+      "name": "kolirt"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "> 6.0.0"
+  },
+  "autoload": {
+    "files": [
+      "src/helpers.php"
+    ],
+    "psr-4": {
+      "Kolirt\\Checkbox\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {}
+  }
+}
